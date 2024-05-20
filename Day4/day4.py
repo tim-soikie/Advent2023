@@ -28,7 +28,6 @@ for scratch_id, line in enumerate(lines, 1):
     combo = 0
     if len(matched_numbers) > 0:
         for number in matched_numbers:
-            print("iter:",number)
             if combo == 0:
                 combo = 1
             else:
@@ -36,4 +35,3 @@ for scratch_id, line in enumerate(lines, 1):
         scratch_score += combo
 
 print(scratch_score)
-    
